@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page2">
+    <div class="Register">
+        <div class="register-logo">
+        <h3>WieConnect</h3>
+        <p>Connecting Minds, Creating Futures</p>
+        </div>
+        <div class="form">
+            <h3>HELLO🖐, WELCOME😊</h3>
+            <P>Register.</P>
+        <form>
+            <input id="fullName" type="text" placeholder="Full Name" required>
+            <input id="email" type="email" placeholder="Email" required>
+        <Button><a href="signup.html" target="_blank">⇒</a></Button>
+        </div>
+    </div>
+    <script>
+        const form = 
+        document.getElementById('form-reg');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+        })
+        const fullName = 
+        document.getElementById('fullName').value.trim();
+        const email =
+        document.getElementById('email').value.trim.toLowerCase();
+    </script>
+</body>
+</html>
